@@ -30,3 +30,5 @@ add_executable(amqpcpp_libuv_example libuv.cpp)
 add_dependencies(amqpcpp_libuv_example amqpcpp)
 
 target_link_libraries(amqpcpp_libuv_example amqpcpp uv pthread dl ssl)
+
+add_subdirectory(windows)
