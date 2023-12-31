@@ -18,3 +18,6 @@
 .atom-build.cson
 .atom-dbg.cson
 /bin
+/build_x64
+/build_x86
+/out/build
